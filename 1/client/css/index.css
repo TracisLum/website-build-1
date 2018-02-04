@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei UI"
+}
+
+body{
+    min-width: 1200px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+.clear{
+    clear: both;
+}
+
+.text-underline{
+    width: 28px;
+    background-color: #07cbc9;
+    height: 2px;
+    margin: 12px auto;
+}
+
+.explore-button{
+    margin-top: 15px;
+    border: none;
+}
+
+.explore-button, .gallery-container .gallery .gallery-element p{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.header, .footer{
+    width: 100%;
+    height: 48px;
+    background-color: #07cbc9;
+    color: #fff;
+    line-height: 48px;
+}
+
+.header img{
+    width: 208px;
+    height: 38.4px;
+    margin-top: 4.8px;
+    float: left;
+    margin-left: 50px;
+}
+
+.header .nav-bar{
+    float: right;
+}
+
+.header .nav-bar ul{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.header .nav-bar ul li{
+    float: left;
+    margin-left: 20px; 
+}
+
+.banner-container, .banner-background img{
+    width: 100%;
+    height: 400px;
+}
+
+.banner-top{
+    position: absolute;
+    top: 48px;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    height: 400px;
+    opacity: 0.3;    
+    z-index: 2;
+}
+
+.banner-form-container{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 48px;
+    z-index: 3;
+}
+
+.banner-form-container .banner-form{
+    width: 450px;
+    height: 240px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.banner-form-container .banner-form *{
+    background: none;
+    padding: 5px;
+    border: 1px solid #7c7c7c;
+}
+
+.banner-form-container .banner-form .banner-form-textarea{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.banner-form-container .banner-form textarea{
+    text-transform: capitalize;
+}
+
+.banner-form-container .banner-form .banner-button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 114px;
+    margin: 15px auto;
+    color: #7c7c7c;
+    text-transform: uppercase;
+}
+
+.about-container{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.section-title{
+    width: 440px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-title h1, .about-top-content-left h1, .explore-button{
+    text-transform: uppercase;
+}
+
+.section-title p{
+    font-size: 0.9em;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.about-top-content-container, .gallery-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.about-top-content-left,
+.about-top-content-middle,
+.about-top-content-right{
+    float: left;
+}
+
+.about-top-content-left{
+    width: 370px;
+    z-index: 2;
+    
+}
+
+.about-top-content-left h1{
+    width: 180px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.about-top-content-left p{
+    border: 1.5px solid #cccccc;
+    padding: 25px 20px;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.about-top-content-middle{
+    margin-left: -137px;
+    margin-right: 30px;
+}
+
+.about-top-content-middle img{
+    width: 500px;
+    height: 335px;
+}
+
+.about-top-content-right{
+    width: 227px;
+    text-align: center;
+}
+
+.about-top-content-right .about-statics{
+    margin-bottom: 25px;
+    padding: 25px 0;
+    box-shadow: 1px 1px 4px #07cbc9;
+}
+
+.about-bottom-container,.about-bottom-container .about-bottom-line, .explore-button-container{
+    width: 100%;
+}
+
+.about-bottom-container{
+    margin-top: 50px;
+}
+
+.about-bottom-container,.about-bottom-container .about-bottom-line{
+    height: 250px;
+}
+
+.about-bottom-container .about-bottom-line .about-bottom-element{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+
+.about-bottom-container .about-bottom-line .about-bottom-line-text-container{
+    background-color: #07cbc9;
+    color: #fff;
+}
+
+.about-bottom-container .about-bottom-line .about-bottom-line-text *{
+    margin: 8px 30px;
+    line-height: 1.5em;
+}
+
+.about-bottom-container .about-bottom-line .about-bottom-line-text h5{
+    font-weight: normal;
+}
+
+.about-bottom-container .about-bottom-line .about-bottom-line-text p{
+    font-size: 0.7em;
+}
+
+.explore-button-container{
+    text-align: center;
+}
+
+.gallery-container{
+    margin-top: 30px;
+}
+
+.gallery-container .gallery{
+    width: 720px;
+/*    height: 350px;*/
+    margin: 0 auto;
+}
+
+.gallery-container .gallery .gallery-element{
+    float: left;
+    margin: 10px;
+}
+
+.gallery-container .gallery .gallery-element img{
+    height: 146px;
+    width: 220px;
+}
+
+.gallery-container .gallery .gallery-element p{
+    font-size: 0.8em;
+    margin-top: -5px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 20px;
+}
